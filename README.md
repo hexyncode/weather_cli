@@ -215,4 +215,4 @@ By running these tests locally, you can help ensure that your contributions inte
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the GPL v3 License. See the `LICENSE` file for details.
