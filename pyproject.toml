@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "weather_cli_app"
+version = "1.0.0"
+authors = [
+  { name="Callum Howell", email="slippuu.us@gmail.com" },
+]
+description = "A CLI weather application."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License", # Choose your license
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests",
+    "rich",
+    "python-dotenv",
+]
+
+[project.scripts]
+weather_app = "weather_cli.main:main"
