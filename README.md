@@ -1,6 +1,10 @@
 # Python Weather CLI
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/hexyncode/weather_cli/blob/dev/pyproject.toml)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/hexyncode/weather_cli/ci.yml?branch=main)](https://github.com/hexyncode/weather_cli/actions/workflows/ci.yml)
+[![Dependencies](https://img.shields.io/badge/dependencies-managed-brightgreen.svg)](requirements.txt)
+[![Python Version](https://img.shields.io/badge/Python-3.13.3-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3133/)
 
 A command-line interface (CLI) application to display the current weather and a 5-day forecast for a specified city using the OpenWeatherMap API. Features include selectable units (Metric/Imperial), colorized output, and local caching of results.
 
